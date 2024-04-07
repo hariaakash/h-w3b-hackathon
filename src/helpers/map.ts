@@ -55,3 +55,38 @@ cities.forEach((city) => {
 	const cityCoordinates = generateRandomCoordinates(city.center, 100, 200); // Radius of 0.5 degree around each city
 	allCoordinates = allCoordinates.concat(cityCoordinates);
 });
+
+
+export const londonAreas = [
+	"Westminster",
+	"Kensington",
+	"Chelsea",
+	"Camden",
+	"Islington",
+	"Hackney",
+	"Tower Hamlets",
+	"Greenwich",
+	"Lewisham",
+	"Southwark",
+	"Lambeth",
+	"Wandsworth",
+	"Hammersmith",
+	"Fulham",
+	"Brent",
+	"Ealing",
+	"Hounslow",
+	"Richmond upon Thames",
+	"Kingston upon Thames",
+	"Merton",
+	"Sutton",
+	"Croydon",
+	"Bromley",
+	"Lewisham",
+	"Greenwich",
+	"Bexley",
+	"Havering",
+	"Barking and Dagenham",
+	"Redbridge",
+	"Newham"
+  ];
+  
