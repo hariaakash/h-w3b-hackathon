@@ -51,16 +51,8 @@
 	}
 </script>
 
-<div class="h-full w-full" bind:this={mapElement}>
+<div class="h-full w-full z-0" bind:this={mapElement}>
 	{#if map}
 		<slot />
 	{/if}
 </div>
-
-<style>
-	.leaflet-container {
-		max-width: 100%;
-		max-height: 100%;
-		margin: 0 auto;
-	}
-</style>
