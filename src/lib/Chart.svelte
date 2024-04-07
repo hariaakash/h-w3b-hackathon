@@ -25,8 +25,9 @@
     );
 
 
-    const initialDataCount = 5;
-    const labels = generatePreviousTimestamps(initialDataCount);
+    const initialDataCount = 20;
+    // const labels = generatePreviousTimestamps(initialDataCount);
+    const labels = Array.from({ length: initialDataCount }, (_, index) => index + 1);
     const data1 = generateSmoothNumbers(initialDataCount);
     const data2 = generateSmoothNumbers(initialDataCount);
 
@@ -65,7 +66,8 @@
 
     function addData() {
         // Update labels and datasets with new data points
-        labels.push(new Date());
+        // labels.push(new Date());
+        labels.push(labels.length+1);
         data1.push(...generateSmoothNumbers(1))
         data2.push(...generateSmoothNumbers(1))
         console.log('running updates')
