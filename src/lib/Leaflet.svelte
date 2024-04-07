@@ -51,7 +51,7 @@
 	}
 </script>
 
-<div class="h-full w-full z-0" bind:this={mapElement}>
+<div class="z-0 h-full w-full" bind:this={mapElement}>
 	{#if map}
 		<slot />
 	{/if}
