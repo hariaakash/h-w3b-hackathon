@@ -31,19 +31,19 @@
 		labels: labels,
 		datasets: [
 			{
-				label: 'Sewage Treatment Data',
+				label: 'Sewage Overflow',
 				data: data1,
 				backgroundColor: 'rgb(0, 143, 251, .3)',
 				borderColor: 'rgb(0, 143, 251)',
 				...lineChartOpts
 			},
-			{
-				label: 'Carbon Emissions',
-				data: data2,
-				backgroundColor: 'rgb(0, 227, 150, 0.3)',
-				borderColor: 'rgb(0, 227, 150)',
-				...lineChartOpts
-			}
+			// {
+			// 	label: 'Carbon Emissions',
+			// 	data: data2,
+			// 	backgroundColor: 'rgb(0, 227, 150, 0.3)',
+			// 	borderColor: 'rgb(0, 227, 150)',
+			// 	...lineChartOpts
+			// }
 		],
 		options: {
 			scales: {
